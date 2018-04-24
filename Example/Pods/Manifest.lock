@@ -1,6 +1,6 @@
 PODS:
   - Actions (0.1.0):
-    - HuaTHome
+    - HuaTHome (~> 0.1.0)
   - HuaTHome (0.1.0)
 
 DEPENDENCIES:
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Actions: 597be6e6cd57d2a0f68f2076299bf4791a76a0b1
+  Actions: 33d759eb7b6cab445163662d5d8a7a3719b1f05f
   HuaTHome: 9f522c9ab6c357f3bdcefb4d2817c5cc501783c3
 
 PODFILE CHECKSUM: d239bbcaae338adfb8f6dd585e1d38f2719d0377
