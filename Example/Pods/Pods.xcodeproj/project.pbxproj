@@ -625,6 +625,67 @@
 			};
 			name = Release;
 		};
+		21C8246DC1D3088516250D3C89FB332D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86CB5AFC4AEEAD4D22814DA0DFF00AEA /* Actions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Actions/Actions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Actions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Actions/Actions.modulemap";
+				PRODUCT_MODULE_NAME = Actions;
+				PRODUCT_NAME = Actions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37A0085D6E699BBB44808EA754259264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86CB5AFC4AEEAD4D22814DA0DFF00AEA /* Actions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Actions/Actions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Actions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Actions/Actions.modulemap";
+				PRODUCT_MODULE_NAME = Actions;
+				PRODUCT_NAME = Actions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6D3EF2C45546DDABF1377ABD3FCDDE27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CABE30749D2B4F55E507DAB0AFF1CAB6 /* HuaTHome.xcconfig */;
@@ -786,36 +847,6 @@
 			};
 			name = Debug;
 		};
-		ED48A24FC9383FDCCB09D2B7D3B24AAD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86CB5AFC4AEEAD4D22814DA0DFF00AEA /* Actions.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Actions/Actions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Actions/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Actions/Actions.modulemap";
-				PRODUCT_MODULE_NAME = Actions;
-				PRODUCT_NAME = Actions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -874,37 +905,6 @@
 			};
 			name = Release;
 		};
-		FDDB91BAA1D1D6A7896AE4EDF2F440DE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86CB5AFC4AEEAD4D22814DA0DFF00AEA /* Actions.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Actions/Actions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Actions/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Actions/Actions.modulemap";
-				PRODUCT_MODULE_NAME = Actions;
-				PRODUCT_NAME = Actions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -947,8 +947,8 @@
 		D8CB2A6265695701093D22CCF4C99B65 /* Build configuration list for PBXNativeTarget "Actions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED48A24FC9383FDCCB09D2B7D3B24AAD /* Debug */,
-				FDDB91BAA1D1D6A7896AE4EDF2F440DE /* Release */,
+				37A0085D6E699BBB44808EA754259264 /* Debug */,
+				21C8246DC1D3088516250D3C89FB332D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

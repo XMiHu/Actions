@@ -16,13 +16,13 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "Actions/Classes/**/*",
   "public_header_files": "Actions/Classes/**/*.h",
   "dependencies": {
     "HuaTHome": [
-      "~> 0.1.0"
+
     ]
   }
 }
